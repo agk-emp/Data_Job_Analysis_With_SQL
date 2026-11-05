@@ -1,2 +1,2 @@
----delete after pushing
---- Some testing before committing
+SELECT *
+FROM company_dim;
