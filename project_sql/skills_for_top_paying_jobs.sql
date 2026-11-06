@@ -1,6 +1,6 @@
 /*
     - After I got the top paying jobs
-    - I want to get tet the top skills I need to focus on
+    - I want to get the top skills I need to focus on
     - This will help avoid wasting time on not well-paying skills
 */
 
