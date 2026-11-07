@@ -1,12 +1,12 @@
 /*
-    Filter the top-demanded-skills that pays the most
+    Filter the top-paying-skills that pays the most
     Goal: to avoid wasting my time on not well-paying skills because there are many.
 */
 
 WITH skills_count_cte AS(
     SELECT
         sjd.skill_id,
-        ROUND(AVG(jpf.salary_year_avg),2) as avg_yearly_salary
+        ROUND(AVG(jpf.salary_year_avg),2) AS avg_yearly_salary
     FROM
         skills_job_dim AS sjd
         INNER JOIN job_postings_fact AS jpf
