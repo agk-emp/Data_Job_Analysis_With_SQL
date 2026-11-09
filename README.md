@@ -78,7 +78,7 @@ ORDER BY
 LIMIT 10;
 ```
 
-![Top paying Data Analyst jobs](assets\1_top_paying_jobs.png)
+![Top paying Data Analyst jobs](assets/1_top_paying_jobs.png)
 
 | Job title | Company | Location | Average yearly salary |
 |-----------|---------|----------|----------------------:|
@@ -133,7 +133,7 @@ ORDER BY
     tjs.salary_year_avg DESC;
 ```
 
-![Skills in the top paying jobs](assets\2_skills_for_top_paying_jobs.png)
+![Skills in the top paying jobs](assets/2_skills_for_top_paying_jobs.png)
 
 | Skill | Postings (out of 7 that list skills) |
 |-------|:---:|
@@ -183,7 +183,7 @@ ORDER BY
 LIMIT 5;
 ```
 
-![Most in-demand skills](assets\3_most_demanded_skills.png)
+![Most in-demand skills](assets/3_most_demanded_skills.png)
 
 | Skill | Number of postings |
 |-------|-------------------:|
@@ -230,7 +230,7 @@ ORDER BY
 LIMIT 10;
 ```
 
-![Top paying skills](assets\4_top_paying_skills.png)
+![Top paying skills](assets/4_top_paying_skills.png)
 
 | Skill | Average yearly salary |
 |-------|----------------------:|
@@ -282,7 +282,7 @@ ORDER BY
     op_cte.avg_yearly_salary DESC NULLS LAST;
 ```
 
-![Demand vs pay for the most requested skills](assets\5_optimal_skills.png)
+![Demand vs pay for the most requested skills](assets/5_optimal_skills.png)
 
 | Skill | Number of postings | Average yearly salary |
 |-------|-------------------:|----------------------:|
